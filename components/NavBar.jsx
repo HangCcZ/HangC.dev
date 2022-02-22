@@ -1,4 +1,3 @@
-import { Disclosure } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
 import { useRouter } from 'next/router'
 import { useState } from 'react'
