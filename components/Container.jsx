@@ -1,5 +1,6 @@
 import NavBar from './NavBar'
 import Head from 'next/head'
+import Footer from './Footer'
 export default function Container(props) {
   return (
     <div className="bg-gray-50 pt-4">
@@ -9,6 +10,7 @@ export default function Container(props) {
       </Head>
       <NavBar />
       {props.children}
+      <Footer />
     </div>
   )
 }
