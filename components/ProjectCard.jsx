@@ -6,10 +6,26 @@ export default function ProjectCard() {
       </h1>
 
       <div className="justify-space flex w-4/6 items-center justify-between pt-2">
-        <img src="./logos/react.svg" alt="react.js logo" className="h-8 w-8" />
-        <img src="./logos/nextjs.svg" alt="next.js logo" className="h-8 w-8" />
-        <img src="./logos/nodejs.svg" alt="node.js logo" className="h-8 w-8" />
-        <img src="./logos/mongodb.svg" alt="mongodb logo" className="h-8 w-8" />
+        <img
+          src="./logos/react.svg"
+          alt="react.js logo"
+          className="h-8 w-8 md:h-10 md:w-10"
+        />
+        <img
+          src="./logos/nextjs.svg"
+          alt="next.js logo"
+          className="h-8 w-8 md:h-10 md:w-10"
+        />
+        <img
+          src="./logos/nodejs.svg"
+          alt="node.js logo"
+          className="h-8 w-8 md:h-10 md:w-10"
+        />
+        <img
+          src="./logos/mongodb.svg"
+          alt="mongodb logo"
+          className="h-8 w-8 md:h-10 md:w-10"
+        />
         <img
           src="./logos/tailwindcss.svg"
           alt="tailwindcss logo"
