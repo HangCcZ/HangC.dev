@@ -46,12 +46,14 @@ export default function ProjectCard() {
       </div>
       <div className="flex w-2/3 items-center justify-between px-2 py-4">
         <a
+          target="_blank"
           href="https://github.com/HangCcZ/Full-Stack-Employee-Directory"
           className="rounded-xl bg-blue-500 px-5 py-2 font-semibold uppercase tracking-wide text-gray-50 hover:bg-blue-600 hover:ring-2 hover:ring-blue-200"
         >
           Code
         </a>
         <a
+          target="_blank"
           href="https://code-challenge-for-postlight.vercel.app/"
           className="rounded-xl bg-blue-600  px-5 py-2 font-semibold uppercase tracking-wide text-gray-50 hover:bg-blue-700 hover:ring-2 hover:ring-blue-200"
         >
