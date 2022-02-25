@@ -49,7 +49,7 @@ export default function NavBar() {
                 {NavItems().map((item) => (
                   <Link href={item.href}>
                     <a
-                      key={item.name}
+                      key={item.href}
                       className={cn(
                         item.current ? 'font-semibold' : 'font-normal',
                         'text-md rounded-md px-3 py-2  text-gray-800 hover:bg-gray-200'
