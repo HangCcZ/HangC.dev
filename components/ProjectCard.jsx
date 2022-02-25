@@ -19,27 +19,27 @@ export default function ProjectCard() {
 
       <div className="px-5 pt-5 text-left text-gray-600">
         <ol className="list-decimal space-y-3 px-3">
-          <li>
+          <li key="1">
             Designed and developed an employee directory website based on
             suggested features and time constraints
           </li>
-          <li>
+          <li key="2">
             Written functional and responsive CSS using Tailwind CSS with mobile
             first approach
           </li>
-          <li>
+          <li key="3">
             Utilized Vercel server-less functions for backend APIs and MongoDB
             Atlas to perform CRUD operations
           </li>
-          <li>
+          <li key="4">
             Used client-side router in Next.js and SWR for fast navigation and
             caching to provide excellent user experience
           </li>
-          <li>
+          <li key="5">
             Implemented server-side pagination and server-side searching for
             high scalability
           </li>
-          <li>
+          <li key="6">
             Integrated Cloudinary to handle image upload and image storage
           </li>
         </ol>

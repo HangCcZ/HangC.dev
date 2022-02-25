@@ -47,9 +47,8 @@ export default function NavBar() {
             <div className="hidden w-full sm:ml-6 sm:block">
               <div className="flex justify-between">
                 {NavItems().map((item) => (
-                  <Link href={item.href}>
+                  <Link href={item.href} key={item.href}>
                     <a
-                      key={item.href}
                       className={cn(
                         item.current ? 'font-semibold' : 'font-normal',
                         'text-md rounded-md px-3 py-2  text-gray-800 hover:bg-gray-200'
