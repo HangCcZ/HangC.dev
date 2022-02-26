@@ -5,7 +5,6 @@ export default function ProjectList({ projectList }) {
     <div className="grid grid-cols-1 gap-4 md:gap-8 ">
       {projectList
         .sort((a, b) => {
-          console.log(a, b)
           return a.priority - b.priority
         })
         .map((project) => (
