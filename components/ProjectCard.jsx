@@ -1,6 +1,6 @@
 export default function ProjectCard({ project }) {
   return (
-    <div className="mx-auto flex w-11/12 flex-col items-center justify-center border-2 border-dashed border-blue-300">
+    <div className="mx-auto flex w-11/12 flex-col items-center border-2 border-dashed border-blue-300">
       <h1 className="p-2 text-center text-2xl font-semibold tracking-wide text-gray-700 sm:text-2xl md:w-full md:text-3xl">
         {project.title}
       </h1>
