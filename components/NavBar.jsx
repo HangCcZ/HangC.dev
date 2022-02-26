@@ -68,7 +68,7 @@ export default function NavBar() {
       <div className={`sm:hidden ${open ? 'block' : 'hidden'}`}>
         <div className="space-y-1 px-2 pt-2 pb-3">
           {NavItems().map((item) => (
-            <Link href={item.href}>
+            <Link href={item.href} key={item.href}>
               <a
                 key={item.name}
                 as="a"
