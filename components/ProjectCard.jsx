@@ -1,63 +1,26 @@
-export default function ProjectCard() {
+export default function ProjectCard({ project }) {
   return (
     <div className="mx-auto flex w-11/12 flex-col items-center justify-center border-2 border-dashed border-blue-300">
       <h1 className="p-2 text-center text-2xl font-semibold tracking-wide text-gray-700 sm:text-2xl md:w-full md:text-3xl">
-        Full Stack Employee Directory
+        {project.title}
       </h1>
 
       <div className="justify-space flex w-4/6 items-center justify-between pt-2">
-        <img
-          src="./logos/react.svg"
-          alt="react.js logo"
-          className="h-8 w-8 md:h-10 md:w-10"
-        />
-        <img
-          src="./logos/nextjs.svg"
-          alt="next.js logo"
-          className="h-8 w-8 md:h-10 md:w-10"
-        />
-        <img
-          src="./logos/nodejs.svg"
-          alt="node.js logo"
-          className="h-8 w-8 md:h-10 md:w-10"
-        />
-        <img
-          src="./logos/mongodb.svg"
-          alt="mongodb logo"
-          className="h-8 w-8 md:h-10 md:w-10"
-        />
-        <img
-          src="./logos/tailwindcss.svg"
-          alt="tailwindcss logo"
-          className="h-8 w-8"
-        />
+        {project.techList.map((tech, index) => (
+          <img
+            src={`./logos/${tech}.svg`}
+            alt={`${tech} logo`}
+            key={index}
+            className="h-8 w-8 md:h-10 md:w-10"
+          />
+        ))}
       </div>
 
       <div className="px-5 pt-5 text-left text-gray-600">
         <ol className="list-decimal space-y-3 px-3">
-          <li key="1">
-            Designed and developed an employee directory website based on
-            suggested features and time constraints
-          </li>
-          <li key="2">
-            Written functional and responsive CSS using Tailwind CSS with mobile
-            first approach
-          </li>
-          <li key="3">
-            Utilized Vercel server-less functions for backend APIs and MongoDB
-            Atlas to perform CRUD operations
-          </li>
-          <li key="4">
-            Used client-side router in Next.js and SWR for fast navigation and
-            caching to provide excellent user experience
-          </li>
-          <li key="5">
-            Implemented server-side pagination and server-side searching for
-            high scalability
-          </li>
-          <li key="6">
-            Integrated Cloudinary to handle image upload and image storage
-          </li>
+          {project.keypoints.map((point, index) => (
+            <li key={index}>{point}</li>
+          ))}
         </ol>
       </div>
       <div className="flex w-2/3 items-center justify-between px-2 py-4">
