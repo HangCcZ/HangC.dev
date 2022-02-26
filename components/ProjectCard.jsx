@@ -1,11 +1,11 @@
 export default function ProjectCard({ project }) {
   return (
-    <div className="mx-auto flex w-11/12 flex-col items-center border-2 border-dashed border-blue-300">
+    <div className="mx-auto flex w-11/12 flex-col border-2 border-dashed border-blue-300">
       <h1 className="p-2 text-center text-2xl font-semibold tracking-wide text-gray-700 sm:text-2xl md:w-full md:text-3xl">
         {project.title}
       </h1>
 
-      <div className="justify-space flex w-4/6 items-center justify-between pt-2">
+      <div className="justify-space mx-auto flex w-4/6 items-center justify-between pt-2">
         {project.techList.map((tech, index) => (
           <img
             src={`./logos/${tech}.svg`}
@@ -17,14 +17,14 @@ export default function ProjectCard({ project }) {
       </div>
 
       <div className="px-5 pt-5 text-left text-gray-600">
-        <ol className="list-decimal space-y-3 px-3">
+        <ul className="list-disc space-y-3 px-3 ">
           {project.keypoints.map((point, index) => (
             <li key={index}>{point}</li>
           ))}
-        </ol>
+        </ul>
       </div>
       <div
-        className={`flex w-2/3 items-center ${
+        className={`mx-auto flex w-2/3 items-center ${
           project.projectLive ? `justify-between` : `justify-center`
         } px-2 py-4 `}
       >
