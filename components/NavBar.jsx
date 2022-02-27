@@ -27,7 +27,7 @@ export default function NavBar() {
   const [open, setOpen] = useState(false)
   return (
     <nav>
-      <div className="mx-auto max-w-2xl px-4 sm:px-6">
+      <div className="mx-auto max-w-2xl">
         <div className="relative flex h-16 items-center justify-between">
           <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
             {/* Mobile menu button*/}
@@ -45,7 +45,7 @@ export default function NavBar() {
           </div>
           <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
             <div className="hidden w-full sm:block">
-              <div className="flex justify-start space-x-5">
+              <div className="flex justify-between space-x-5">
                 {NavItems().map((item) => (
                   <Link href={item.href} key={item.href}>
                     <a

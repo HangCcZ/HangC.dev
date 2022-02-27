@@ -5,10 +5,12 @@ import TimeLineCard from '../components/TimeLineCard'
 export default function Home({ timelineList }) {
   return (
     <Container>
-      <div className="mx-auto flex max-w-2xl flex-col py-4 px-6">
+      <div className="mx-auto flex max-w-2xl flex-col py-4">
         <div className="mb-6">
-          <h1 className="text-3xl font-bold md:w-2/3 md:text-4xl">Hang Chen</h1>
-          <h2 className="pt-1 text-gray-600">
+          <h1 className="text-3xl font-bold underline decoration-wavy md:w-2/3 md:text-4xl">
+            Hang Chen
+          </h1>
+          <h2 className="pt-1 text-gray-600 sm:pt-3">
             Developer,{' '}
             <a
               href="https://unsplash.com/@hangccz"
