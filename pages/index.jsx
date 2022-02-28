@@ -5,7 +5,7 @@ import TimeLineCard from '../components/TimeLineCard'
 export default function Home({ timelineList }) {
   return (
     <Container>
-      <div className="mx-auto flex max-w-2xl flex-col py-4 pl-8 pr-10 sm:pl-0 sm:pr-6">
+      <div className="mx-auto flex max-w-2xl flex-col py-4 pl-8 pr-10 sm:pl-2 sm:pr-6">
         <div className="mb-6">
           <h1 className="text-3xl font-bold underline decoration-wavy md:w-2/3 md:text-4xl">
             Hang Chen
