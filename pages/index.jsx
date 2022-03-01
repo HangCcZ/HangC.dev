@@ -30,8 +30,9 @@ export default function Home({ timelineList }) {
           <h3 className="pt-2 text-2xl font-bold md:text-4xl">About Me</h3>
           <p className="pt-2 text-gray-600">
             Hey there, I'm Hang, an IT Analyst for a bank located in New York
-            City. I'm currently learning AWS, Jamstack and UI/UX. I'm also
-            actively looking for a Full Stack Developer position.
+            City. I'm currently seeking a Full Stack Developer position in which
+            I can contribute on impactful and meaningful work. I'm actively
+            learning AWS, Jamstack, UI/UX and GraphQL.
           </p>
 
           <p className="pt-4 text-gray-600">
