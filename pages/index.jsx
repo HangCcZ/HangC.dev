@@ -31,7 +31,7 @@ export default function Home({ timelineList }) {
           <p className="pt-2 text-gray-600">
             Hey there, I'm Hang, an IT Analyst for a bank located in New York
             City. I'm currently seeking a Full Stack Developer position in which
-            I can contribute on impactful and meaningful work. I'm actively
+            I can contribute to impactful and meaningful work. I'm actively
             learning AWS, Jamstack, UI/UX and GraphQL.
           </p>
 
