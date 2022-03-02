@@ -11,7 +11,7 @@ export default function Footer() {
         rel="noopener noreferrer"
       >
         Powered by{' '}
-        <img src="/netlify.svg" alt="Netlify Logo" className="ml-2 h-4" />
+        <img src="/logos/netlify.svg" alt="Netlify Logo" className="ml-2 h-5" />
       </a>
     </footer>
   )
