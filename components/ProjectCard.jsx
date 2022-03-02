@@ -1,7 +1,13 @@
 export default function ProjectCard({ project }) {
   return (
-    <div className="mx-auto flex w-11/12 flex-col border-2 border-dashed border-blue-300">
-      <h1 className="p-2 text-center text-2xl font-semibold tracking-wide text-gray-700 sm:text-2xl md:w-full md:text-3xl">
+    <div
+      className={`mx-auto flex w-11/12 flex-col ${
+        project.priority % 2 == 1 ? `border-l-2` : `border-r-2`
+      } ${
+        project.priority == 1 && `border-t-2`
+      } border-b-2 border-dashed border-blue-200 py-2 `}
+    >
+      <h1 className="p-2 text-center text-2xl font-bold tracking-wide text-gray-800 sm:text-2xl md:w-full md:text-3xl">
         {project.title}
       </h1>
 
@@ -31,7 +37,7 @@ export default function ProjectCard({ project }) {
         <a
           target="_blank"
           href={project.projectCode}
-          className="rounded-xl bg-blue-500 px-5 py-2 font-semibold uppercase tracking-wide text-gray-50 hover:bg-blue-600 hover:ring-2 hover:ring-blue-200"
+          className="rounded-2xl bg-blue-500 px-5 py-2 font-semibold uppercase tracking-wide text-gray-50 transition ease-in-out hover:bg-gray-100 hover:text-gray-400 hover:ring-2 hover:ring-blue-200"
         >
           Code
         </a>
@@ -40,7 +46,7 @@ export default function ProjectCard({ project }) {
           <a
             target="_blank"
             href={project.projectLive}
-            className="rounded-xl bg-blue-600  px-5 py-2 font-semibold uppercase tracking-wide text-gray-50 hover:bg-blue-700 hover:ring-2 hover:ring-blue-200"
+            className="rounded-2xl bg-blue-600 px-5 py-2  font-semibold uppercase tracking-wide text-gray-50 transition ease-in-out hover:bg-gray-100 hover:text-gray-400 hover:ring-2 hover:ring-blue-200"
           >
             Live
           </a>
