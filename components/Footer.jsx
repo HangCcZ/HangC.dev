@@ -10,7 +10,7 @@ export default function Footer() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        Powered by{' '}
+        Hosted on{' '}
         <img src="/logos/netlify.svg" alt="Netlify Logo" className="ml-2 h-5" />
       </a>
     </footer>
