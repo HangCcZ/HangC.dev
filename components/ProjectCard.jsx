@@ -37,7 +37,7 @@ export default function ProjectCard({ project }) {
         <a
           target="_blank"
           href={project.projectCode}
-          className="rounded-2xl bg-blue-500 px-5 py-2 font-semibold uppercase tracking-wide text-gray-50 transition ease-in-out hover:bg-gray-100 hover:text-gray-400 hover:ring-2 hover:ring-blue-200"
+          className="rounded-2xl bg-blue-400 px-5 py-2 font-semibold uppercase tracking-wide text-white transition ease-in-out hover:bg-gray-50 hover:text-gray-600 hover:ring-2 hover:ring-blue-200"
         >
           Code
         </a>
@@ -46,7 +46,7 @@ export default function ProjectCard({ project }) {
           <a
             target="_blank"
             href={project.projectLive}
-            className="rounded-2xl bg-blue-600 px-5 py-2  font-semibold uppercase tracking-wide text-gray-50 transition ease-in-out hover:bg-gray-100 hover:text-gray-400 hover:ring-2 hover:ring-blue-200"
+            className="rounded-2xl bg-blue-500 px-5 py-2  font-semibold uppercase tracking-wide text-white transition ease-in-out hover:bg-gray-50 hover:text-gray-600 hover:ring-2 hover:ring-blue-200"
           >
             Live
           </a>
