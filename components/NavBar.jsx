@@ -45,7 +45,7 @@ export default function NavBar() {
           </div>
           <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
             <div className="hidden w-full sm:block">
-              <div className="flex justify-between space-x-5">
+              <div className="flex justify-between px-6">
                 {NavItems().map((item) => (
                   <Link href={item.href} key={item.href}>
                     <a
