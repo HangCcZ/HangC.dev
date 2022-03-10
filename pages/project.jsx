@@ -30,6 +30,7 @@ export async function getStaticProps() {
     }
   `
   const response = await ContentfulApi(projectListingQuery)
+
   return {
     props: { projectList: response.projectItemCollection.items },
     revalidate: 10,

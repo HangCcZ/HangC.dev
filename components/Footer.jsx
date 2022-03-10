@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <footer className="flex h-24 w-full flex-col items-center justify-center  ">
-      <a href="https://github.com/HangCcZ" className="px-5">
+      <a href="https://github.com/HangCcZ" className="mb-2 px-5">
         <p className="underline decoration-wavy">Coded by Hang Chen</p>
       </a>
       <a
@@ -11,7 +11,11 @@ export default function Footer() {
         rel="noopener noreferrer"
       >
         Hosted on{' '}
-        <img src="/logos/netlify.svg" alt="Netlify Logo" className="ml-2 h-5" />
+        <img
+          src="/logos/netlify.svg"
+          alt="Netlify Logo"
+          className="ml-2 h-5 w-5"
+        />
       </a>
     </footer>
   )

@@ -12,6 +12,7 @@ export default function ProjectCard({ project }) {
           <img
             src={`./logos/${tech}.svg`}
             alt={`${tech} logo`}
+            title={tech}
             key={index}
             className="h-8 w-8 md:h-10 md:w-10"
           />
@@ -33,7 +34,7 @@ export default function ProjectCard({ project }) {
         <a
           target="_blank"
           href={project.projectCode}
-          className="rounded-3xl bg-blue-400 px-5 py-2 font-semibold uppercase tracking-wide text-white transition ease-in-out hover:bg-gray-50 hover:text-gray-600 hover:ring-2 hover:ring-blue-200"
+          className="rounded-3xl border-2 border-blue-400 px-5 py-2 font-semibold uppercase tracking-wide text-blue-400 transition ease-in-out hover:bg-blue-400 hover:text-gray-50 hover:ring-2 hover:ring-blue-200"
         >
           Code
         </a>
@@ -42,7 +43,7 @@ export default function ProjectCard({ project }) {
           <a
             target="_blank"
             href={project.projectLive}
-            className="rounded-3xl bg-blue-500 px-5 py-2  font-semibold uppercase tracking-wide text-white transition ease-in-out hover:bg-gray-50 hover:text-gray-600 hover:ring-2 hover:ring-blue-200"
+            className="rounded-3xl border-2 border-blue-400 px-5 py-2 font-semibold uppercase tracking-wide text-blue-400 transition ease-in-out hover:bg-blue-400 hover:text-gray-50 hover:ring-2 hover:ring-blue-200"
           >
             Live
           </a>

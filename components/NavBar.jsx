@@ -51,7 +51,7 @@ export default function NavBar() {
                     <a
                       className={cn(
                         item.current ? 'font-semibold' : 'font-normal',
-                        'text-md rounded-md py-2 px-2 text-gray-800 hover:bg-gray-200'
+                        'text-md rounded-xl py-2 px-2 text-gray-800 hover:bg-gray-200'
                       )}
                       aria-current={item.current ? 'page' : undefined}
                     >
