@@ -13,7 +13,11 @@ function NavItems() {
       href: '/project',
       current: router.asPath === '/project',
     },
-    { name: 'Blog', href: '/blog', current: router.asPath === '/blog' },
+    {
+      name: 'Writing',
+      href: '/writing',
+      current: router.asPath === '/writing',
+    },
     {
       name: 'Resources',
       href: '/resource',
