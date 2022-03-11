@@ -2,7 +2,7 @@ import ProjectCard from './ProjectCard'
 
 export default function ProjectList({ projectList }) {
   return (
-    <div className="grid grid-cols-1 gap-y-8 py-6">
+    <div className="grid grid-cols-1 gap-y-8 py-6 px-5 sm:px-0">
       {projectList
         .sort((a, b) => {
           return a.priority - b.priority
