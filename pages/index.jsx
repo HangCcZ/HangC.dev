@@ -38,9 +38,9 @@ export default function Home({ timelineList }) {
           <p className="pt-4 text-gray-600">
             When not trying to find a bug or bugs that crash my program, I enjoy
             learning about engineering, taking photos of landscapes/cityscapes
-            and astronomical objects, brewing coffee (Aeropress, Pourover and
-            Cold brew) and detailing my car (which made my family members think
-            that I'm obessed with my car).
+            and stars, brewing coffee (Aeropress, Pourover and Cold brew) and
+            detailing my car (which made my family members think that I'm
+            obessed with my car).
           </p>
         </div>
 
@@ -49,13 +49,9 @@ export default function Home({ timelineList }) {
             Experiences and Timeline
           </h3>
           <ol className="relative ml-1 border-l border-gray-400">
-            {timelineList
-              .sort((a, b) => {
-                return b.date > a.date ? 1 : -1
-              })
-              .map((item) => (
-                <TimeLineCard item={item} key={item.title} />
-              ))}
+            {timelineList.map((item) => (
+              <TimeLineCard item={item} key={item.title} />
+            ))}
           </ol>
         </div>
       </div>
@@ -78,7 +74,11 @@ export async function getStaticProps() {
   `
   const response = await ContentfulApi(timelineListQuery)
   return {
-    props: { timelineList: response.timelineCollection.items },
+    props: {
+      timelineList: response.timelineCollection.items.sort((a, b) => {
+        return b.date > a.date ? 1 : -1
+      }),
+    },
     revalidate: 10,
   }
 }
