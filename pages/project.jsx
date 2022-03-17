@@ -32,7 +32,11 @@ export async function getStaticProps() {
   const response = await ContentfulApi(projectListingQuery)
 
   return {
-    props: { projectList: response.projectItemCollection.items },
+    props: {
+      projectList: response.projectItemCollection.items.sort((a, b) => {
+        return a.priority - b.priority
+      }),
+    },
     revalidate: 10,
   }
 }
