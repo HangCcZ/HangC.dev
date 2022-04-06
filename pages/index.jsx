@@ -18,8 +18,7 @@ export default function Home({ timelineList }) {
               className="text-blue-400"
             >
               Photographer
-            </a>{' '}
-            and IT Guy
+            </a>
           </h2>
           <p className="pt-3 text-gray-600">
             I'm constantly gazing at the stars, wondering what's out there.
@@ -29,10 +28,10 @@ export default function Home({ timelineList }) {
         <div className="mb-8">
           <h3 className="pt-2 text-2xl font-bold md:text-4xl">About Me</h3>
           <p className="pt-2 text-gray-600">
-            Hey there, I'm Hang, an IT Analyst for a bank located in New York
-            City. I'm currently seeking a Full Stack Developer position in which
-            I can contribute to impactful and meaningful work. I'm actively
-            learning AWS, Jamstack, UI/UX and GraphQL.
+            Hey there, I'm Hang, used to be an IT Analyst for a bank located in
+            New York City. I'm currently seeking a Full Stack Developer position
+            in which I can contribute to impactful and meaningful work. I'm
+            actively learning AWS, Jamstack, UI/UX and GraphQL.
           </p>
 
           <p className="pt-4 text-gray-600">
