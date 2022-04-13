@@ -37,8 +37,7 @@ export default function Home({ timelineList }) {
           <p className="pt-4 text-gray-600">
             When not trying to find a bug or bugs that crash my program, I enjoy
             learning about engineering, taking photos of landscapes/cityscapes
-            and stars, brewing coffee (Aeropress, Pourover and Cold brew) and
-            detailing my car.
+            and stars, brewing coffee and detailing my car.
           </p>
         </div>
 
