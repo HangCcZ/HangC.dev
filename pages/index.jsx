@@ -38,8 +38,7 @@ export default function Home({ timelineList }) {
             When not trying to find a bug or bugs that crash my program, I enjoy
             learning about engineering, taking photos of landscapes/cityscapes
             and stars, brewing coffee (Aeropress, Pourover and Cold brew) and
-            detailing my car (which made my family members think that I'm
-            obsessed with my car).
+            detailing my car.
           </p>
         </div>
 
