@@ -39,7 +39,7 @@ export default function Home({ timelineList }) {
             learning about engineering, taking photos of landscapes/cityscapes
             and stars, brewing coffee (Aeropress, Pourover and Cold brew) and
             detailing my car (which made my family members think that I'm
-            obessed with my car).
+            obsessed with my car).
           </p>
         </div>
 
