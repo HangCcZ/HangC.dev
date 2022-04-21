@@ -1,2 +1,2 @@
-# Rebuilding [Portfolio](https://www.hangc.dev) page Next.js + Tailwind CSS + Contentful
+# [Portfolio Website](https://www.hangc.dev) with Next.js + Tailwind CSS + Contentful
 
