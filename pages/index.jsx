@@ -11,7 +11,7 @@ export default function Home({ timelineList }) {
             Hang Chen
           </h1>
           <h2 className="pt-1 text-gray-600 sm:pt-3">
-            Developer,{' '}
+            Software Enginner and
             <a
               href="https://unsplash.com/@hangccz"
               target="_blank"
@@ -28,10 +28,7 @@ export default function Home({ timelineList }) {
         <div className="mb-8">
           <h3 className="pt-2 text-2xl font-bold md:text-4xl">About Me</h3>
           <p className="pt-2 text-gray-600">
-            Hey there, I'm Hang, used to be an IT Analyst for a bank located in
-            New York City. I'm currently seeking a Full Stack Developer position
-            in which I can contribute to impactful and meaningful work. I'm
-            actively learning AWS, Jamstack, UI/UX and GraphQL.
+            Hey there, I'm Hang, Software Enginner at Garnter.
           </p>
 
           <p className="pt-4 text-gray-600">
