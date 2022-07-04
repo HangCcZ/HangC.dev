@@ -11,7 +11,7 @@ export default function Home({ timelineList }) {
             Hang Chen
           </h1>
           <h2 className="pt-1 text-gray-600 sm:pt-3">
-            Software Engineer and
+            Software Engineer and{' '}
             <a
               href="https://unsplash.com/@hangccz"
               target="_blank"
@@ -28,7 +28,7 @@ export default function Home({ timelineList }) {
         <div className="mb-8">
           <h3 className="pt-2 text-2xl font-bold md:text-4xl">About Me</h3>
           <p className="pt-2 text-gray-600">
-            Hey there, I'm Hang, Software Engineer at Garnter.
+            Hey there, I'm Hang, currently a Software Engineer at Garnter.
           </p>
 
           <p className="pt-4 text-gray-600">
